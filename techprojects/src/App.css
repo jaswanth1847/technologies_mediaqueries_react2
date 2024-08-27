@@ -1,0 +1,35 @@
+.bg-cont{
+  width: 50vw;
+  background-color: rgb(223, 255, 244);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  gap:30px;
+}
+.cards-cont{
+  padding-right: 30px;
+  padding-right: 20px;
+}
+
+h1{
+  margin-bottom: 0px;
+}
+
+
+p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+@media screen and (min-width : 992px) and (max-width : 1390px) {
+  .bg-cont{
+    width: 100vw;
+  }
+  .cards-cont{
+    
+    padding: 30px;
+    display: flex;
+  }
+}

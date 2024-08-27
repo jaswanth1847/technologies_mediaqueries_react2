@@ -1,0 +1,25 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 237, 237);
+    border-top:4px solid red;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+
+.imgg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+
+
+
+
